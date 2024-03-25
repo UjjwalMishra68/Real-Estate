@@ -1,0 +1,16 @@
+.logo{
+    display: flex;
+    align-items: center;
+    margin: 3.5rem 0rem;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+.logo img{
+    width: 14.4rem;
+    cursor: pointer;
+}
+@media (max-width:504px) {
+    .logo{
+    flex-direction: column;
+}
+}

@@ -1,0 +1,42 @@
+.navbar{
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    background-color: var(--black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .Logo img{
+    width: 10rem;
+    cursor: pointer;
+}
+.navbar .Right ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+}
+.navbar .Right ul li{
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+    font-weight: 400;
+}
+.navbar .Right ul li:last-child{
+    font-size: 2.3rem;
+    display: none;
+}
+
+@media (max-width:504px) {
+    .Logo{
+        justify-content: center;
+    }
+    .navbar .Right ul li{
+        display: none;
+    }
+    .navbar .Right ul li:last-child{
+        display: block;
+    }
+}

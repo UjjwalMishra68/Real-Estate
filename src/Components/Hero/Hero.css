@@ -1,0 +1,115 @@
+.Hero{
+    min-height: 100vh;
+    width: 100vw;
+    color: white;
+    background-color: var(--black);
+}
+.Hero>div{
+    flex: 1;
+}
+.Hero-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10rem 0rem;
+    gap: 5rem;
+}
+.Hero-left{
+    padding: 0rem 10rem
+}
+.Hero-tittle{
+    position: relative;
+}
+.Hero-left .circle{
+    height: 6rem;
+    width: 6rem;
+    background: var(--orange-gradient);
+    border-radius: 50%;
+    position: absolute;
+    left: 40%;
+    top: -10%;
+}
+.Hero-left h1{
+    font-size: 6rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: calc(6rem* 1.125);
+    z-index: 2;
+    position: relative;
+    text-wrap: wrap;
+    width: 72%;
+}
+.Hero-left>p{
+    text-wrap: balance;
+    font-size: 1.5rem;
+    width: 90%;
+    line-height: calc(1.5rem*1.5);
+    opacity: .7;
+    padding: 5rem 0rem;
+}
+.Hero-left .map{
+    height: 6rem;
+    background-color: white;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    padding: 0rem 1rem;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+    border: 3px solid rgba(120, 120, 120, .374);
+}
+.Hero-left .map > i{
+    font-size: 2.5rem;
+    color: var(--blue);
+}
+.Hero-left .map input{
+    background: none;
+    height: 3rem;
+    outline: none;
+    border: none;
+}
+.Hero-left .counter ul{
+    display: flex;
+    list-style: none;
+    gap: 3%;
+    flex-wrap: wrap;
+}
+.Hero-left .counter ul li h3{
+    font-size: 3rem;
+    font-weight: 200;
+}
+.Hero-left .counter ul li p{
+    font-size: 1.5rem;
+    opacity: .7;
+}
+.Hero-left .counter ul li .Plus{
+    color: orange;
+}
+
+/* ---media query--- */
+
+@media (max-width:504px) {
+    .Hero-wrapper{
+    flex-direction: column;
+}
+.Hero-left h1{
+    font-size: 4rem;
+    width: 79%;
+    line-height: calc(4rem* 1.125);
+}
+.Hero-left{
+    padding: 0rem 0rem;
+}
+.Hero-left>p{
+    font-size: 1.6rem;
+    width: 100%;
+    line-height: calc(1.6rem* 1.5);
+}
+.Hero-left .counter ul {
+    gap: 7%;
+}
+.Hero-left .map{
+    width: 100%;
+}
+    }

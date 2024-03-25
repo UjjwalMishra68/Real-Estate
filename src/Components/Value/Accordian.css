@@ -1,0 +1,45 @@
+.Value{
+    display: flex;
+    justify-content: center;
+    margin: 7rem 0rem;
+}
+.Value>div{
+    flex: 1;
+}
+.Value-heading{
+    margin: 3rem 0rem;
+}
+.Value-right .Heading h1{
+    padding: 1rem 0rem;
+}
+
+h4{
+    font-size: 1.7rem;
+    color: var(--primary);
+    text-align: center;
+}
+.accordion-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.6rem;
+}
+.accordionItem{
+    background-color: #fff;
+    border: 0.8px solid rgba(128, 128, 128, 0.143);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.accordionButton{
+    background: #fff;
+}
+@media (max-width:504px) {
+    .Value{
+        flex-direction: column;
+        align-items: center;
+    }
+    .accordion-content{
+        padding: .9rem;
+    }
+}

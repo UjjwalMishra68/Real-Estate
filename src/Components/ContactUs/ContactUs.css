@@ -1,0 +1,86 @@
+.Contact-us{
+    margin: 7rem 0rem;
+}
+.Contact-us>div{
+    flex: 1;
+}
+.Contactus-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.Contact-left{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.Contact-details ul{
+    display: flex;
+    list-style: none;
+    gap: 5%;
+}
+.details-top{
+    margin-bottom: 30px;
+}
+.Contact-details ul li{
+    height: 15rem;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 4px;
+    align-items: center;
+    gap: 15%;
+    transition: 0.3s ease;
+    padding: 0rem 2rem;
+    cursor: pointer;
+    border: .8px solid rgba(128,128,128,.143);
+}
+.Contact-details ul li:hover{
+    transform: scale(1.07);
+    box-shadow: var(--shadow);
+}
+.details{
+    display: flex;
+    flex-direction: column;
+}
+.Contact-details .card-top{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15%;
+}
+.Contact-details .card-top .text{
+    font-size: 1.8rem;
+    color: var(--primary);
+    font-weight: 600;
+}
+.Contact-details .card-top .text:nth-child(2){
+    font-size: 1.4rem;
+    color: #8C8B8B;
+    font-weight: 500;
+}
+.Contact-right{
+    display: flex;
+    justify-content: center;
+}
+@media (max-width:504px) {
+    .Contactus-wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+    .Contact-details ul{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .Contact-details ul li{
+        width: 100%;
+    }
+    .Contact-details .card-top{
+        margin-bottom: 5%;
+    }
+    .Contact-heading{
+        margin-bottom: 10%;
+    }
+}
