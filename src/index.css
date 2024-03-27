@@ -14,6 +14,10 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+::selection{
+    color: black;
+    background-color: white;
+}
 html, body {
     height: 100%;
     width: 100%;

@@ -21,8 +21,8 @@
     background: var(--orange-gradient);
     border-radius: 50%;
     position: absolute;
-    left: 40%;
-    top: -5%;
+    left: 41%;
+    top: -9%;
 }
 .Hero-left h1{
     font-size: 6rem;
@@ -37,7 +37,7 @@
 .Hero-left>p{
     text-wrap: wrap;
     font-size: 1.5rem;
-    width: 90%;
+    width: 70%;
     line-height: calc(1.5rem*1.5);
     opacity: .7;
     padding: 5rem 0rem;
@@ -81,6 +81,11 @@
 }
 .Hero-left .counter ul li .Plus{
     color: orange;
+}
+.Hero-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* ---media query--- */
