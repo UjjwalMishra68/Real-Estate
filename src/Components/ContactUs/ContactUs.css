@@ -1,12 +1,10 @@
 .Contact-us{
     margin: 7rem 0rem;
 }
-.Contact-us>div{
-    flex: 1;
-}
 .Contactus-wrapper{
     display: flex;
     justify-content: space-between;
+    gap: 5rem;
 }
 .Contact-left{
     display: flex;

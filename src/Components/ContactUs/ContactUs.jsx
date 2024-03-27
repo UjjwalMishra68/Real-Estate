@@ -14,7 +14,7 @@ const ContactUs = () => {
             <h1>Easy to contact us</h1>
           </span>
           <p className="Paragraph">
-            We always ready to help by providijng the best services for you.
+            We always ready to help by providijng the best services for you. <br />
             We beleive a good place to live can make your life better
           </p>
         </div>

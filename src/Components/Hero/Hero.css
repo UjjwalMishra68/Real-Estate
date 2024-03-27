@@ -1,21 +1,16 @@
 .Hero{
     min-height: 100vh;
-    width: 100vw;
     color: white;
     background-color: var(--black);
-}
-.Hero>div{
-    flex: 1;
 }
 .Hero-wrapper{
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 10rem 0rem;
     gap: 5rem;
+    padding: 10rem 6rem;
 }
-.Hero-left{
-    padding: 0rem 10rem
+.Hero-wrapper>div{
+    flex: 1;
 }
 .Hero-tittle{
     position: relative;
@@ -27,7 +22,7 @@
     border-radius: 50%;
     position: absolute;
     left: 40%;
-    top: -10%;
+    top: -5%;
 }
 .Hero-left h1{
     font-size: 6rem;
@@ -37,10 +32,10 @@
     z-index: 2;
     position: relative;
     text-wrap: wrap;
-    width: 72%;
+    width: 73%;
 }
 .Hero-left>p{
-    text-wrap: balance;
+    text-wrap: wrap;
     font-size: 1.5rem;
     width: 90%;
     line-height: calc(1.5rem*1.5);
@@ -68,7 +63,7 @@
     height: 3rem;
     outline: none;
     border: none;
-    width: 30rem;
+    width: 65%;
 }
 .Hero-left .counter ul{
     display: flex;
@@ -91,7 +86,7 @@
 /* ---media query--- */
 
 @media (max-width:504px) {
-    .Hero-wrapper{
+.Hero-wrapper{
     flex-direction: column;
 }
 .Hero-left h1{
@@ -99,8 +94,8 @@
     width: 79%;
     line-height: calc(4rem* 1.125);
 }
-.Hero-left{
-    padding: 0rem 0rem;
+.Hero-wrapper{
+    padding: 10rem 0rem;
 }
 .Hero-left>p{
     font-size: 1.6rem;
