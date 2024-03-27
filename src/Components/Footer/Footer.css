@@ -7,6 +7,7 @@
 .footer-left img{
     height: 5rem;
     width: 13rem;
+    cursor: pointer;
 }
 .footer-right{
     display: flex;
@@ -30,6 +31,7 @@
 }
 .footer-links ul li{
     font-size: 1.6rem;
+    cursor: pointer;
 }
 @media (max-width:504px) {
     .footer{

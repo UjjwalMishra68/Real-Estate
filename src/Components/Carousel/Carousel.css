@@ -13,7 +13,6 @@
     gap: 1rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin: auto;
 }
 .card:hover{
@@ -58,6 +57,9 @@
     .Carousel-scroller p{
         font-size: 1.3rem;
         text-align: center;
+    }
+    .card{
+        align-items: center;
     }
 }
 
